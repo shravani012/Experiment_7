@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e7ecf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-box {
+  background-color: #fcf5ed;
+  padding: 2.5rem 3rem;
+  border-radius: 30px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  width: 450px;
+  text-align: center;
+}
+
+.todo-box h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #1a1a1a;
+}
+
+/* Input and Add Button */
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.input-group input {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  width: 220px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.input-group button {
+  padding: 0.7rem 1.2rem;
+  font-size: 0.95rem;
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.input-group button:hover {
+  background-color: #a3a3a3;
+}
+
+/* Filter Buttons */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.filters button {
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  background-color: #d3d3d3;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.filters button:hover {
+  background-color: #a3a3a3;
+}
